@@ -1,0 +1,184 @@
+//
+// user.scss
+// Use this to write your custom SCSS
+//
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+	color: rgb(212, 217, 221);
+}
+
+p,
+.p {
+	color: rgb(212, 217, 221);
+}
+
+.nav-background-semi {
+	background-color: rgba(0, 0, 0, 0.438);
+}
+.navbar-brand {
+	margin-left: 2rem;
+}
+.header-btn {
+	margin-left: 3rem;
+	margin-right: 2rem;
+}
+.borderbox {
+	height: 25px;
+}
+.borderbox > img {
+	vertical-align: top;
+}
+.headerVideo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	max-width: 100%;
+	z-index: -10;
+}
+.videoContainer {
+	height: calc(100vw / 2);
+	max-height: 80vh;
+}
+.videoOverlay {
+	position: relative;
+	top: 50%;
+	background: linear-gradient(
+		90deg,
+		rgba(231, 181, 12, 0.2) 10%,
+		rgba(163, 92, 29, 0.8) 25%,
+		rgba(163, 92, 29, 0.8) 75%,
+		rgba(231, 181, 12, 0.2) 100%
+	);
+	border-radius: 10px;
+}
+.bgBlack {
+	background-color: black;
+}
+.bgBeige {
+	background-color: rgba(245, 239, 229, 1);
+}
+.bgGreen {
+	background-color: green;
+}
+
+.textPrimary {
+	color: rgba(159, 83, 19, 1);
+}
+a {
+	color: rgba(159, 83, 19, 1);
+}
+
+h3.mb-3.fs-5 {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+ul.list-group {
+	font-size: 0.8rem;
+	width: fit-content;
+}
+.btn-primary-link {
+	font-weight: 700;
+	color: #9f5313;
+	text-decoration: none;
+	border-bottom: 2px solid #9f5313;
+}
+
+.btn-primary-link:hover {
+	color: #ff3912;
+	text-decoration: none;
+	border-bottom: 2 px solid #ff3912;
+}
+li.list-group-item {
+	padding: 0.5rem;
+}
+.footer {
+	background: url("../images/footer-bg-2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.footer-text {
+	font-size: 0.8rem;
+	color: rgb(150, 140, 127);
+	background-color: #3a23104f;
+}
+#footer-img-profile {
+	max-width: 250px;
+}
+
+@media only screen and (max-width: 1000px) {
+	#footer-img-profile {
+		display: none;
+	}
+	#footer-img-logo {
+		width: 100%;
+	}
+}
+.dropdown-item {
+	display: block;
+	width: 100%;
+	padding: 0.25rem 1rem;
+	clear: both;
+	font-weight: 400;
+	color: white;
+	text-align: inherit;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+}
+.img_right {
+	float: left;
+}
+.compassBG {
+	background-image: url("../images/Compass-09.png");
+	object-fit: fill;
+	background-repeat: no-repeat;
+}
+
+
+
+///////////////////////tmp navbar
+// .navbar {
+// 	margin-bottom: 20px;
+// 	background-color: rgb(175, 97, 34);
+//   }
+  
+//   .navbar .links {
+// 	position: relative;
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	align-items: center;
+// 	justify-content: space-between;
+// 	margin-right: 1rem;
+//   }
+  
+//   .navbar a:hover {
+// 	background-color: rgb(119, 83, 16);
+//   }
+  
+//   .navbar img {
+// 	margin-left: 2rem;
+//   }
+  
+//   .bg-header {
+// 	background-color: rgb(175, 97, 34);
+  
+//   }
+  
+//   .bg-header2 {
+// 	background-color: rgba(20, 49, 146, 0.508);
+  
+//   }

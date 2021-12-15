@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Terra Nova Travel</title>
+		@@include("../partials/head.html")
+	</head>
+
+	<body>
+		<!-- header -->
+		@@include("../partials/navbar.html", { "classList": "fixed-top border-3 " })
+		<!-- Content -->
+		<div
+			class="col"
+			style="
+				background-image: url('@@webRoot/assets/images/1200-pexels-taryn-elliott-3889765.jpg');
+				height: 100vh;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: bottom;
+				bottom: 0;
+			"
+		>
+			<div class="row pt-22 text-center w-sm-75 mx-auto">
+				<h1 class="videoOverlay text-white display-1">The Best of Morocco</h1>
+			</div>
+		</div>
+
+		<div class="col">
+			@@include("../partials/borderPattern.html")
+
+			<div class="row bgBlack py-5">
+				<div class="container">
+					<div class="w-75 mx-auto pt-5 text-center">
+						<h3>Discover the Magic, the Mystery, and Incredible Flavors of Morocco</h3>
+						<p class="pt-5 blockquote w-75 flex-wrap mx-auto">
+							A slideshow tour of the highlights of my trip from Rabat, Chefchouan, Volulblis, Fes, the desert, Skoura, Asni, Marrakech, and Essaouria.
+						</p>
+					</div>
+
+					<div id="carouselExampleIndicators" class="carousel slide w-75 mx-auto pt-5" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="https://placeimg.com/600/300/nature" class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src="https://placeimg.com/600/300/nature" class="d-block w-100" alt="..." />
+							</div>
+							<div class="carousel-item">
+								<img src="https://placeimg.com/600/300/nature" class="d-block w-100" alt="..." />
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
+					<div class="w-75 mx-auto pt-5 text-center">
+						<h4>A slideshow tour of the highlights of my trip from Rabat, Chefchouan, Volulblis, Fes, the desert, Skoura, Asni, Marrakech, and Essaouria.</h4>
+
+						@@include("../partials/contact-call.html")
+
+						<p>View Additional Slideshows From Morocco: The Medina | Memorable Meals | Food of the Souks</p>
+					</div>
+				</div>
+			</div>
+			@@include("../partials/borderPattern.html")
+		</div>
+
+		<div class="col bgBeige">
+			<div class="row w-75 py-5 mx-auto">
+				<div class="col ">
+					<img src="@@webRoot/assets/images/map_wiki.png" alt="Moroco map" alt="" class="img-fluid rounded" />
+				</div>
+				<div class="col">
+					<h2 class='textPrimary'>Facculpa nis nonsequi ius aut occab idem eum quidi ipsandit to omnis de pa qui beaquam atur?</h2>
+					<p class="blockquote textPrimary">
+						Copy about the wonderful country of Morocco. Tenimagnihit molupic iuscias dolupta sitis ut quistiae pe eariam hicidelendae non natem que nus, ut am,
+						solenisquat ad quam am, alignimaion pa eossinctia endae comnimi, que nonsequ amenda pernatusam aliquid elendit am, inissum sequi aditat officiamus.
+					</p>
+					<p class='textPrimary'>Sample Itinerary of Morocco</p>
+				</div>
+			</div>
+			@@include("../partials/borderPattern.html") @@include("../partials/content-row2.html") @@include("../partials/borderPattern.html")
+		</div>
+		<div>
+			<!-- Footer-->
+			@@include("../partials/footer.html")
+		</div>
+	</body>
+</html>

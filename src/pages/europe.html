@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Terra Nova Travel</title>
+		@@include("../partials/head.html")
+	</head>
+
+	<body>
+		<!-- header -->
+		@@include("../partials/navbar.html", { "classList": "fixed-top border-3 " })
+		<!-- Content -->
+		<div
+			class="col"
+			style="
+				background-image: url('@@webRoot/assets/images/1200-pexels-taryn-elliott-3889765.jpg');
+				height: 100vh;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: bottom;
+				bottom: 0;
+			"
+		>
+			<div class="row pt-22 text-center w-sm-75 mx-auto">
+				<h1 class="videoOverlay text-white display-1">European Wrereiwpe Rthere</h1>
+			</div>
+		</div>
+
+		<div class="col">
+			@@include("../partials/borderPattern.html")
+
+				<div class="row bgBlack py-5">
+					@@include("../partials/europe/paragraph1.html")
+					@@include("../partials/europe/img1.html")
+					@@include("../partials/europe/paragraph2.html")
+
+					@@include("../partials/contact-call.html")
+					</div>
+		</div>
+
+		<div class="col">
+			@@include("../partials/borderPattern.html") 
+			@@include("../partials/content-row2.html")
+			 @@include("../partials/borderPattern.html")
+		</div>
+		<div>
+			<!-- Footer-->
+			@@include("../partials/footer.html")
+		</div>
+	</body>
+</html>
